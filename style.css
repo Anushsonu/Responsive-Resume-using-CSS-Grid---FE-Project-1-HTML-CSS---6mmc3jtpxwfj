@@ -14,7 +14,7 @@
 }
 .left-section{
     background-color: rgb(37, 44, 63);
-    grid-column: 1;
+    grid-template-columns :300px
 }
 
 .right-section{
