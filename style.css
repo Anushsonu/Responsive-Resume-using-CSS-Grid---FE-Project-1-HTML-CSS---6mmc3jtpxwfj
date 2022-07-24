@@ -11,18 +11,14 @@
     grid-template-columns: 300px 700px;
     width: 90%;
     min-height: 1000px;
-    grid-template-rows: 1fr;
 }
 .left-section{
-    background-color: rgb(37, 44, 63);  
-    grid-column-start: 1;
-    grid-column-end: 2;
+    background-color: rgb(37, 44, 63);
 }
 
 .right-section{
     background-color: rgb(177, 177, 177);
-    grid-column-start: 2;
-    grid-column-end: 3;
+
 }
 
 .left-content{
@@ -139,7 +135,6 @@ progress{
 }
 @media (max-width:674px){
     .main-content{
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 }
