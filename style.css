@@ -15,18 +15,19 @@
 }
 .left-section{
     background-color: rgb(37, 44, 63);  
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
 .right-section{
     background-color: rgb(177, 177, 177);
-    
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 .left-content{
     padding: 1rem;
 }
-
-
 
 .left-content img{
     width: 300px;
@@ -108,10 +109,9 @@
     padding-bottom: 0.5rem;
 }
 
-.skills{
-    display: grid;
+.skill-item{
+    margin: 1rem;
 }
-
 progress{
     width: 95%;
     border: 1px solid white;
