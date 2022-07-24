@@ -14,11 +14,11 @@
 }
 .left-section{
     background-color: rgb(37, 44, 63);
+    grid-column: 1;
 }
 
 .right-section{
     background-color: rgb(177, 177, 177);
-
 }
 
 .left-content{
