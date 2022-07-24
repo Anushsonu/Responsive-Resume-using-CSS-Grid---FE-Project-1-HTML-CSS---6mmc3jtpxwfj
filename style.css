@@ -34,7 +34,7 @@
     border-radius: 30%;
 }
 
-.name h3{
+.name{
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     font-weight: 700;
@@ -45,7 +45,7 @@
     letter-spacing: 0.02px;
 }
 
-.designation h3{
+.designation{
     color: rgb(0, 145, 189);
     font-size: 1rem;
     text-align: center;
@@ -54,26 +54,26 @@
     border-bottom: 2px solid rgb(143, 143, 143);
 }
 
-.description h3{
+.description{
     color:  rgb(167, 167, 167);
     font-size: 0.75rem;
     text-align: center;
     padding-bottom: 1rem;
 }
 
-.social-media{
+.contact-item{
     text-decoration: none;
     font-size: 1.5rem;
     display: flex;
     justify-content: space-around;
 }
 
-.social-media a{
+.contact-item a{
     text-decoration: none;
     color: aliceblue;
 }
 
-.social-media a:hover{
+.contact-item a:hover{
     cursor: pointer;
 }
 
@@ -86,11 +86,7 @@
     font-size: 0.75rem;
     text-align: center;
     color: white;
-}
-
-.skills h3{
-    text-align: center;
-    margin-top: 1rem;
+    text-transform: uppercase;
 }
 
 .skill-name{
