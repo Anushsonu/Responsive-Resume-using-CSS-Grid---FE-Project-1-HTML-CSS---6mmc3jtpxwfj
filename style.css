@@ -7,12 +7,15 @@
 }
 
 .main-content{
+    display: grid;
+    margin: 20px auto;
     grid-template-rows: 1000px;
     grid-template-columns: 300px 700px;
+    width: 90%;
+    min-height: 1000px;
 }
 .left-section{
-    background-color: rgb(37, 44, 63);
-    
+    background-color: rgb(37, 44, 63);  
 }
 
 .left-content{
