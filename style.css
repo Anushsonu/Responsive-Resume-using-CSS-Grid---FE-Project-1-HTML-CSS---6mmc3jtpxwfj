@@ -8,24 +8,25 @@
 
 .main-content{
     display: grid;
-    margin: 20px auto;
-    grid-template-rows: 1000px;
     grid-template-columns: 300px 700px;
     width: 90%;
     min-height: 1000px;
+    grid-template-rows: 1fr;
 }
 .left-section{
     background-color: rgb(37, 44, 63);  
+}
+
+.right-section{
+    background-color: rgb(177, 177, 177);
+    
 }
 
 .left-content{
     padding: 1rem;
 }
 
-.right-section{
-    width: 90%;
-    background-color: rgb(177, 177, 177);
-}
+
 
 .left-content img{
     width: 300px;
@@ -79,8 +80,16 @@
     cursor: pointer;
 }
 
-.email , .phone{
+.email a{
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+}
+.phone a{ 
     font-size: 1.12rem;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
 }
 
 .skills{
