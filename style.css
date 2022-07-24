@@ -89,6 +89,14 @@
     margin-top: 1rem;
 }
 
+.skills label{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    color: white;
+    padding-bottom: 0.5rem;
+}
+
 .skills{
     display: grid;
 }
