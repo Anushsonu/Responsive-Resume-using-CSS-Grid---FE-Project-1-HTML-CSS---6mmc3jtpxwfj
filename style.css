@@ -13,13 +13,13 @@
     min-height: 1000px;
 }
 .left-section{
-
     background-color: rgb(37, 44, 63);
     grid-column: span 1;
 }
 
 .right-section{
     background-color: rgb(177, 177, 177);
+    grid-column: span 1;
 }
 
 .left-content{
