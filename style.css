@@ -13,8 +13,9 @@
     min-height: 1000px;
 }
 .left-section{
+
     background-color: rgb(37, 44, 63);
-    grid-template-columns :300px
+    grid-column: span 1;
 }
 
 .right-section{
