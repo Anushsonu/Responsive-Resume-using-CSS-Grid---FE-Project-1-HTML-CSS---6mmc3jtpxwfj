@@ -19,7 +19,7 @@
 
 .right-section{
     background-color: rgb(177, 177, 177);
-    grid-column: span 1;
+    grid-column: span 1/ span 2;
 }
 
 .left-content{
