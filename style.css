@@ -94,7 +94,7 @@
 
 progress{
     width: 95%;
-    
+    border: 1px solid white;
 }
 
 .right-main-content{
