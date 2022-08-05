@@ -112,6 +112,7 @@
 progress{
     width: 95%;
     border: 1px solid white;
+    height: 4px;
 }
 
 .right-main-content{
